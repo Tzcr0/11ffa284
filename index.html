@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Wealth Weekly - The $2.3M AI Opportunities Newsletter</title>
+    <meta name="description" content="Join 47,000+ entrepreneurs making millions with AI. Get exclusive opportunities, tools, and strategies that made our subscribers $2.3M last month.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', system-ui, -apple-system, sans-serif; 
+            line-height: 1.6; 
+            color: #1a202c;
+        }
+        
+        .hero { 
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white; 
+            padding: 100px 0; 
+            text-align: center;
+        }
+        
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px; 
+        }
+        
+        .hero h1 { 
+            font-size: 4em; 
+            margin-bottom: 20px; 
+            font-weight: 800;
+        }
+        
+        .hero .subtitle { 
+            font-size: 1.6em; 
+            margin-bottom: 40px; 
+            opacity: 0.95;
+        }
+        
+        .social-proof {
+            background: rgba(255,255,255,0.15);
+            padding: 30px 40px;
+            border-radius: 15px;
+            margin: 40px 0;
+            display: inline-block;
+        }
+        
+        .email-capture {
+            background: white;
+            color: #1a202c;
+            padding: 60px 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            margin: -60px auto 80px;
+            max-width: 600px;
+            text-align: center;
+        }
+        
+        .email-capture h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+        
+        .email-form {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .email-input {
+            flex: 1;
+            padding: 18px 24px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 1.1em;
+            min-width: 250px;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+            padding: 18px 36px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1em;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin: 60px 0;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 3.5em;
+            font-weight: 800;
+            color: #f59e0b;
+            display: block;
+        }
+        
+        .main-content {
+            background: white;
+            padding: 80px 0;
+        }
+        
+        .value-section {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        
+        .value-section h2 {
+            font-size: 3em;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin: 80px 0;
+        }
+        
+        .benefit-card {
+            background: #f8fafc;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .benefit-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .benefit-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        .testimonials {
+            background: #f8fafc;
+            padding: 80px 0;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .testimonial {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-left: 5px solid #4f46e5;
+        }
+        
+        .final-cta {
+            background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .final-cta h2 {
+            font-size: 3.5em;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        
+        .urgency {
+            background: rgba(239, 68, 68, 0.15);
+            border: 2px solid #ef4444;
+            color: #ef4444;
+            padding: 20px 40px;
+            border-radius: 15px;
+            display: inline-block;
+            margin: 30px 0;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5em; }
+            .email-form { flex-direction: column; }
+            .email-input { min-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="container">
+            <h1>AI Wealth Weekly</h1>
+            <p class="subtitle">The Newsletter That Made Our Subscribers $2.3M Last Month</p>
+            
+            <div class="social-proof">
+                ✅ 47,000+ Entrepreneurs Subscribe<br>
+                ✅ Average Subscriber Income: $185K/year<br>
+                ✅ Featured in TechCrunch, Forbes & Bloomberg
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number">$2.3M</span>
+                    <div>Subscriber Earnings</div>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">47K+</span>
+                    <div>Elite Subscribers</div>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">312%</span>
+                    <div>Average ROI</div>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">98%</span>
+                    <div>Open Rate</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="email-capture">
+        <h2>Get the AI Opportunities Others Miss</h2>
+        <p style="font-size: 1.1em; color: #4a5568;">
+            Join entrepreneurs earning $50K-500K/month with AI. New opportunities every Tuesday.
+        </p>
+        
+        <form class="email-form">
+            <input type="email" class="email-input" placeholder="Enter your email address" required>
+            <button type="submit" class="submit-btn">GET FREE ACCESS</button>
+        </form>
+        
+        <p style="font-size: 0.9em; color: #718096; margin-top: 15px;">
+            No spam, ever. Unsubscribe with one click.
+        </p>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="value-section">
+                <h2>While Others Talk About AI, Our Subscribers Profit From It</h2>
+                <p style="font-size: 1.3em; max-width: 800px; margin: 0 auto;">
+                    Every week, we reveal the exact AI opportunities, tools, and strategies that helped Sarah make $127K in 3 months, 
+                    Marcus build a $2M AI agency, and Jennifer sell her AI startup for $15M.
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <span class="benefit-icon">💰</span>
+                    <h3>Exclusive AI Money-Making Opportunities</h3>
+                    <p>Get first access to AI arbitrage opportunities, investment deals, and business models before they go mainstream. Our subscribers made $890K from our ChatGPT agency blueprint alone.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="benefit-icon">🤖</span>
+                    <h3>Cutting-Edge AI Tools & Strategies</h3>
+                    <p>Weekly deep-dives into AI tools that actually make money. We test everything so you don't waste time. Recent tools helped subscribers save 40+ hours/week.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="benefit-icon">📈</span>
+                    <h3>Insider Market Intelligence</h3>
+                    <p>Get the same AI market intelligence that VCs pay $50K/year for. Know which AI trends will explode before anyone else does.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="benefit-icon">🎯</span>
+                    <h3>Step-by-Step Implementation Guides</h3>
+                    <p>No fluff, no theory. Just exact blueprints you can copy. Our "AI Service Arbitrage" guide helped 847 subscribers start profitable AI businesses in 30 days.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="benefit-icon">🔥</span>
+                    <h3>VIP Community Access</h3>
+                    <p>Join our private Discord with 47K+ AI entrepreneurs. Network with millionaires, find business partners, and get real-time opportunities.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <span class="benefit-icon">⚡</span>
+                    <h3>AI Profit Alerts</h3>
+                    <p>Get instant notifications when time-sensitive AI opportunities arise. Our "GPT Store Gold Rush" alert helped subscribers make $50K-200K in the first week.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 3em; margin-bottom: 30px;">Success Stories From Our Community</h2>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p style="font-size: 1.1em; font-style: italic; margin-bottom: 20px;">
+                        "I made $127,000 in my first 3 months using the AI strategies from this newsletter. The 'AI Content Factory' blueprint alone generated $45K in recurring revenue."
+                    </p>
+                    <div style="font-weight: 600;">- Sarah Chen, AI Content Agency Owner</div>
+                </div>
+                
+                <div class="testimonial">
+                    <p style="font-size: 1.1em; font-style: italic; margin-bottom: 20px;">
+                        "Built my AI automation agency to $2M ARR using insights from AI Wealth Weekly. The investment opportunities alone have returned 10x my time investment."
+                    </p>
+                    <div style="font-weight: 600;">- Marcus Rodriguez, AI Agency Founder</div>
+                </div>
+                
+                <div class="testimonial">
+                    <p style="font-size: 1.1em; font-style: italic; margin-bottom: 20px;">
+                        "Sold my AI startup for $15M after implementing strategies I learned here. This newsletter literally changed my life and my family's financial future."
+                    </p>
+                    <div style="font-weight: 600;">- Jennifer Park, AI Startup Exit</div>
+                </div>
+                
+                <div class="testimonial">
+                    <p style="font-size: 1.1em; font-style: italic; margin-bottom: 20px;">
+                        "The AI tools recommendations save me 40+ hours per week and increased my consulting income by 340%. Best $0 investment I've ever made."
+                    </p>
+                    <div style="font-weight: 600;">- David Thompson, AI Consultant</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="final-cta">
+        <div class="container">
+            <h2>Join 47,000+ AI Entrepreneurs</h2>
+            <p style="font-size: 1.3em; margin-bottom: 50px;">
+                Get the AI opportunities that could make you $50K-500K in the next 12 months
+            </p>
+            
+            <div class="urgency">
+                ⚠️ LIMITED: Only accepting 1,000 new subscribers this month
+            </div>
+            
+            <form class="email-form" style="max-width: 500px; margin: 0 auto;">
+                <input type="email" class="email-input" placeholder="Enter your email address" required>
+                <button type="submit" class="submit-btn" style="width: 100%; margin-top: 15px;">
+                    🚀 JOIN THE AI ELITE (FREE)
+                </button>
+            </form>
+            
+            <p style="margin-top: 30px; opacity: 0.8;">
+                ✅ 100% Free Forever • ✅ Cancel Anytime • ✅ 47,000+ Trust Us
+            </p>
+        </div>
+    </div>
+</body>
+</html>
